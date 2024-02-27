@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Image Publisher</title>
+</head>
+
+<body>
+<h1>Home Security</h1>
+<h3>Capture Image</h3>
+<form action="/captureImage">
+	<button type="submit">Capture Image</button>
+</form>
+<img src="{{ url_for('get_saved_image')}}" alt="SavedImage">
+
+
+</body>
+
+</html>

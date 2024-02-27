@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Home Security Alarm</title>
+<!--Refresh the webpage every 3 seconds to update status-->
+<meta http-equiv="refresh" content="1">
+</head>
+
+<body>
+<h1>Home Security</h1>
+<form action="/resetAlarm">
+	<button type="submit">Reset Alarm</button>
+</form>
+
+<form action="/soundAlarm">
+	<button type="submit">Sound Alarm</button>
+</form>
+
+<h3>Alarm Status</h3>
+<p>{{ alarm_status }}</p>
+</body>
+
+</html>
